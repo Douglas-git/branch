@@ -11,4 +11,10 @@ git checkout -b <nome_novo>: muda e cria outra branch
 ir para o branch da main e sempre dar um git pull para se sertificar
 de que está atualizado, e depois criar a nova branch. Caso contrário,
 se criar a partir de outra branch, logo estará sendo feita a partir 
+<<<<<<< HEAD
 das funcionalidades daquela branch.
+=======
+das funcionalidades daquela branch.
+git merge <branch>: a partir da merge main vc atualiza com os dados
+de outra branch atualizada para ela.
+>>>>>>> one_branch
