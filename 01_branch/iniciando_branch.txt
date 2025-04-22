@@ -1,0 +1,2 @@
+Branch: Ramificações do projeto, tem como base o "master"
+featura: Funcionalidade de cada branch
