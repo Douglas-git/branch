@@ -10,8 +10,7 @@ git checkout -b <nome_novo>: muda e cria outra branch
 ! Para criar um branch a partir da "main", se faz necessário
 ir para o branch da main e sempre dar um git pull para se sertificar
 de que está atualizado, e depois criar a nova branch. Caso contrário,
-se criar a partir de outra branch, logo estará sendo feita a partir 
-<<<<<<< HEAD
+se criar a partir de outra branch, logo estará sendo feita a partir
 das funcionalidades daquela branch.
 =======
 das funcionalidades daquela branch.
