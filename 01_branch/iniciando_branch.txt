@@ -1,5 +1,8 @@
 Branch: Ramificações do projeto, tem como base o "master"
 featura: Funcionalidade de cada branch
-1
-2
-3
+git branch: visualizar as branches disponíveis
+git branch <nome>: criação de branch
+git checkout <nome>: alteração de branch
+! É importante estar atento ao mudar de branches pois se commitar em uma e mudar 
+para outra, as alterações feitas não surtirão efeito.
+git checkout -b <nome_novo>: muda e cria outra branch
