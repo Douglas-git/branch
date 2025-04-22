@@ -3,6 +3,7 @@ featura: Funcionalidade de cada branch
 git branch: visualizar as branches disponíveis
 git branch <nome>: criação de branch
 git checkout <nome>: alteração de branch
-! É importante estar atento ao mudar de branches pois se commitar em uma e mudar 
-para outra, as alterações feitas não surtirão efeito.
+! É importante estar atento ao mudar de branches pois deve sempre
+commitar para salvar as alterações para depois poder mudar de branch
+caso precise.
 git checkout -b <nome_novo>: muda e cria outra branch
