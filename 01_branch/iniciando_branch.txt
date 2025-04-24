@@ -30,3 +30,11 @@ que foram feitas depois vão para uma espécie de lixeira.
   Deleta todas as stash
 -> git stash drop <nome>:
  Deleta uma stash específica.
+-> git tag -a <nome> -m "msg":
+ Criar tags para serem utilizadas
+ como checkpoint de um branch. Ou seja, é utilizadas
+ para demarcar estágios dp desenvolvimento.
+-> git show <nome>:
+ Verifica uma tag
+-> git checkout <nome>:
+ Permite a troca de tags.
