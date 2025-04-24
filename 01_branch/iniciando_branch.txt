@@ -41,3 +41,8 @@ que foram feitas depois vão para uma espécie de lixeira.
  feitas pós commit.
 -> git checkout <nome>:
  Permite a troca de tags.
+-> git push origin <nome>:
+ Envia a tag para o repositório de código, sendo
+ compartilhado entre os devs.
+-> git push origin --tags:
+ Envia todas as tags.
