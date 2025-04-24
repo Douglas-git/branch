@@ -46,3 +46,5 @@ que foram feitas depois vão para uma espécie de lixeira.
  compartilhado entre os devs.
 -> git push origin --tags:
  Envia todas as tags.
+-> git tag -d <nome>:
+ Exclui uma tag.
