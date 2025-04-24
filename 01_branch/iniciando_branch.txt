@@ -1,6 +1,6 @@
--> Branch:
+Branch:
  Ramificações do projeto, tem como base o "master"
--> featura:
+Featura:
  Funcionalidade de cada branch
 -> git branch:
  visualizar as branches disponíveis
