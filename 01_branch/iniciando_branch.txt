@@ -1,16 +1,32 @@
-Branch: Ramificações do projeto, tem como base o "master"
-featura: Funcionalidade de cada branch
-git branch: visualizar as branches disponíveis
-git branch <nome>: criação de branch
-git checkout <nome>: alteração de branch
-! É importante estar atento ao mudar de branches pois deve sempre
+-> Branch:
+ Ramificações do projeto, tem como base o "master"
+-> featura:
+ Funcionalidade de cada branch
+-> git branch:
+ visualizar as branches disponíveis
+-> git branch <nome>: criação de branch
+-> git checkout <nome>: alteração de branch
+ ! É importante estar atento ao mudar de branches pois deve sempre
 commitar para salvar as alterações para depois poder mudar de branch
 caso precise.
-git checkout -b <nome_novo>: muda e cria outra branch
+-> git checkout -b <nome_novo>:
+ muda e cria outra branch
 ! Para criar um branch a partir da "main", se faz necessário
 ir para o branch da main e sempre dar um git pull para se sertificar
 de que está atualizado, e depois criar a nova branch. Caso contrário,
 se criar a partir de outra branch, logo estará sendo feita a partir 
 das funcionalidades daquela branch.
-git merge <branch>: a partir da merge main vc atualiza com os dados
+-> git merge <branch>:
+ a partir da merge main vc atualiza com os dados
 de outra branch atualizada para ela.
+-> git stash:
+ restaura o código para o ultimo commit e as modificações
+que foram feitas depois vão para uma espécie de lixeira.
+-> git stash apply nº:
+ seleciona a stash que deseja restaurar.
+ -> git stash show -p nº:
+ informa as modificações feitas na stash selecionada.
+ -> git stash clear:
+  Deleta todas as stash
+-> git stash drop <nome>:
+ Deleta uma stash específica.
